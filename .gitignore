@@ -1,0 +1,70 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Environment ---
+.env
+.env.local
+.env.*.local
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Model weights ---
+models/*.pt
+models/*.pth
+models/*.bin
+models/*.safetensors
+models/*.onnx
+models/*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.ckpt
+
+# --- Data ---
+data/*.csv
+data/*.json
+data/*.parquet
+data/images/
+data/raw/
+data/processed/
+
+# --- Uploads ---
+temp_uploads/
+uploads/
+
+# --- Build ---
+frontend/dist/
+frontend/build/
+*.log
+
+# --- Misc ---
+.pytest_cache/
+.coverage
+htmlcov/
